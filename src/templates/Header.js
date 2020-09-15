@@ -9,7 +9,7 @@ const Header = () => {
         <div class="Header-input">
             <form  onsubmit="window.location.href = '#/'+document.getElementById('poke').value">
                 <input type="text" placeholder="Busca tu pokémon" id="poke" />
-                <button type="submit">O</button>
+                <button type="submit">Buscar</button>
             </form>
         </div>
         <div class="Header-nav">

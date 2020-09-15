@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  background-color: lightgray;
+  background-color: rgba(211, 211, 211, 0.5);
 }
 
 .Header a {
@@ -25,25 +25,46 @@ body {
   color: #15302C;
 }
 
+.Header a:hover {
+  text-decoration: underline;
+}
+
 .Header-input {
-  position: relative;
+  display: flex;
 }
 
 .Header-input input {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  transition: all 0.30s ease-in-out;
   outline: none;
-  font-size: 16px;
-  padding: 8px 8px;
-  border: none;
-  border-radius: 15px;
+  padding: 6px 0px 6px 4px;
+  margin: 5px 0 3px 0px;
+  border: 1px solid #DDDDDD;
+  font-size: 15px;
+}
+
+.Header-input input:focus {
+  box-shadow: 0 0 5px rgb(68, 68, 68);
+  border: 1px solid rgb(68, 68, 68);
 }
 
 .Header-input button {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  border-radius: 50%;
+  border-radius: 8px;
   cursor: pointer;
+  padding: 6px;
+  font-size: 15px;
+  outline: none;
+  background-color: rgba(255, 255, 255, .5);
+  border: 1px solid rgba(68, 68, 68, .5);
+}
+
+.Header-input button:hover {
+  box-shadow: 0 0 5px rgb(68, 68, 68);
+  border-color: rgb(68, 68, 68);
+  background-color: white;
 }
 
 .Main {
@@ -89,6 +110,11 @@ body {
   text-align: center;
 }
 
+.Characters-card h2::first-letter {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 .Characters-card h3 {
   font-size: 18px;
   font-weight: 400;
@@ -106,6 +132,7 @@ body {
   display: block;
   animation-duration: 2s;
   animation-name: fade;
+  background-color: rgba(211, 211, 211, 0.9);
 }
 
 .Characters-item:hover {
@@ -168,4 +195,21 @@ body {
 .Error404 h2 {
   font-size: 148px;
   margin: 10px auto;
+}
+
+.Footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  background-color: lightgray;
+}
+
+.Footer-main a {
+  text-decoration: none;
+  color: #15302C;
+}
+
+.Footer-main a:hover {
+  text-decoration: underline;
 }

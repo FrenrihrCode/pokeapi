@@ -5,7 +5,7 @@ const Home = async () => {
     const view = `
         <div class="Main-info">
             <h3>Mira la lista de los primeros 24 pokémon.</h3>
-            <p>Tambíen puesdes buscar el nombre del pokémon en el buscador.</p>
+            <p>Tambíen puedes buscar el nombre del pokémon en el buscador.</p>
         </div>
         <div class='Characters'>
         ${characters.results.map( (pokemon, index) => `
