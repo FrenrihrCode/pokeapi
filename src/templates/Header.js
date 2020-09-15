@@ -3,7 +3,7 @@ const Header = () => {
     <div class='Header-main'>
         <div class="Header-logo">
             <h1>
-                <a href="pokeapi/">POKE.api</a>
+                <a href="#">POKE.api</a>
             </h1>
         </div>        
         <div class="Header-input">
