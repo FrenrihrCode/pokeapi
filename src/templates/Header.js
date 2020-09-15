@@ -3,12 +3,12 @@ const Header = () => {
     <div class='Header-main'>
         <div class="Header-logo">
             <h1>
-                <a href="/">POKE.api</a>
+                <a href="pokeapi/">POKE.api</a>
             </h1>
         </div>        
         <div class="Header-input">
             <form  onsubmit="window.location.href = '#/'+document.getElementById('poke').value">
-                <input type="text" placeholder="Busca tu pokémon" id="poke" />
+                <input type="text" placeholder="Busca tu pokémon" id="poke" required />
                 <button type="submit">Buscar</button>
             </form>
         </div>
