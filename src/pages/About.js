@@ -14,7 +14,7 @@ const About = () => {
         </li>
         <li>
         <p class="About-code">
-            Está página fue elaborada por <a href="https://twitter.com/frenrihr_code" target="_blank">@Frenrihr</a>
+            Está página fue elaborada por <a href="https://twitter.com/frenrihrcode" target="_blank">@Frenrihr</a>
         </p>
         </li>
         <li>
